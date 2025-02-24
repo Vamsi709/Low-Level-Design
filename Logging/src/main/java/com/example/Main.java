@@ -1,0 +1,18 @@
+package com.example;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+        Logger logger = new Logger(LoggingLevel.INFO,LoggerFactory.getLogappender("Console"));
+        logger.debug("Debug message");
+        logger.info("Info message");
+        logger.warn("Warning message");
+        logger.error("Error occurred");
+        logger.fatal("Fatal crash!");
+
+
+
+
+    }
+}
